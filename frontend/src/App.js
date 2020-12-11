@@ -1,13 +1,11 @@
-import {useState} from "react";
-//impoer style.css;
-//import User from'./pages/users'
-import Routes from "./router"
+import {useState} from "react"
+import User from './pages/User'
+
 function App() {
   return (
     <div className="App">
-      <Routes/>
+      <User/>
     </div>
-
   );
 }
 

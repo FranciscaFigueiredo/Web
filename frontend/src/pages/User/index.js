@@ -24,10 +24,16 @@ export default function User() {
                         <p>{user.idade}</p>
                         <strong>Empresa</strong>
                         <p>{user.empresa}</p>
+
+                        <div className = "actions">
+                            <button className = 'button' type = 'button'>Deletar</button>
+                            <button className = 'button' type = 'button'>Acessar</button>
+                        </div>
                     </li>
                 ))}
                  
             </ul>
+            
         </div>
     )
 }
